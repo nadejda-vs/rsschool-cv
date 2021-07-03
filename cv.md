@@ -22,3 +22,34 @@ I am currently studying at the TeachMeSkills educational school at Frontend Deve
 - React
 - Redux
 - Redux Saga
+
+### Code
+
+```javascript
+function nextPrime(n) {
+	let count = 0;
+	for (let i = n + 1; i > 0; i++) {
+		if (isPrime(i)) {
+			count = i;
+			break;
+		}
+	}
+	return count;
+}
+
+function positiveSum(arr) {
+	return arr.reduce((PreviousValue, CurrentValue) => {
+		if (CurrentValue > 0) {
+			return PreviousValue + CurrentValue;
+		}
+		return PreviousValue;
+	}, 0);
+}
+function removeEveryOther(arr) {
+	return arr.filter((arr, i) => i % 2 == 0);
+}
+```
+
+## English
+
+Intermediate
