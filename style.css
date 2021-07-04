@@ -1,0 +1,95 @@
+body {
+	/* font-size: 32px; */
+	background-repeat: no-repeat;
+	background: rgb(34, 193, 195);
+	background: linear-gradient(
+		0deg,
+		rgba(34, 193, 195, 1) 0%,
+		rgba(218, 244, 251, 1) 100%
+	);
+
+	font-family: 'Libre Baskerville', serif;
+}
+.container {
+	margin: 0 auto;
+}
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+main {
+	display: flex;
+	justify-content: space-around;
+}
+#contacts {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+.img_ava {
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+}
+a {
+	text-decoration: none;
+}
+li a:hover,
+li a:link,
+li a:visited,
+.experience_a {
+	list-style-type: none;
+	text-align: left;
+	color: black;
+}
+li {
+	list-style-type: none;
+	text-align: left;
+}
+.contact-list {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.aside_skills_education {
+	display: flex;
+}
+
+.section_skills__div {
+	display: flex;
+	justify-content: space-evenly;
+}
+.aside_education__div {
+	display: flex;
+}
+.experience_article {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.section_h2__skills,
+.aside_h2__education {
+	text-align: center;
+}
+#about_me {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.h2_experience,
+.h2_english,
+.about_me_p {
+	text-align: left;
+}
+footer {
+	padding-top: 38px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+.footer_p {
+	font-size: 15px;
+}
