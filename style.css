@@ -54,10 +54,6 @@ li {
 	text-align: center;
 }
 
-.aside_skills_education {
-	display: flex;
-}
-
 .section_skills__div {
 	display: flex;
 	justify-content: space-evenly;
