@@ -1,1 +1,1 @@
-https://nadejda-vs.github.io/rsschool-cv/cv
+https://nadejda-vs.github.io/rsschool-cv/
