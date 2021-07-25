@@ -1,5 +1,5 @@
 body {
-	/* font-size: 32px; */
+	font-size: 24px;
 	background-repeat: no-repeat;
 	background: rgb(34, 193, 195);
 	background: linear-gradient(
@@ -30,8 +30,8 @@ main {
 }
 .img_ava {
 	border-radius: 50%;
-	height: 250px;
-	width: 250px;
+	height: 300px;
+	width: 300px;
 }
 a {
 	text-decoration: none;
